@@ -1,7 +1,9 @@
 export const themeBackground = '#FFFFFF';
+export const white = '#FFFFFF';
+export const black = '#000000';
 
 // Brand's primary colors
-export const aiaRed = 'rgb(211, 17, 12)';
+export const aiaRed = 'rgb(211, 17, 69)';
 export const green = 'rgb(241, 90, 34)';
 export const citrus = 'rgb(248, 152, 32)';
 export const brightRed = 'rgb(234,28,45)';

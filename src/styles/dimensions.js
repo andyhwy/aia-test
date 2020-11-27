@@ -1,4 +1,5 @@
 export const TextSizes = {
+  extremeLargeText: 28,
   ultraLargeText: 26,
   extraLargeText: 22,
   largeText: 20,
@@ -9,9 +10,18 @@ export const TextSizes = {
 };
 
 export const SpaceSizes = {
-  extraLargeSpace: 20,
-  largeSpace: 15,
+  extremeLargeSpace: 28,
+  ultraLargeSpace: 24,
+  extraLargeSpace: 18,
+  largeSpace: 14,
   normalSpace: 10,
-  smallSpace: 5,
-  extraSmallSpace: 2,
+  smallSpace: 8,
+  extraSmallSpace: 4,
+  ultraSmallSpace: 2,
+};
+
+export const OtherSizes = {
+  largeCornerRadius: 28,
+  normalCornerRadius: 10,
+  elevation: 4,
 };
