@@ -16,7 +16,7 @@ export default function Login(props) {
     <View style={[layouts.loginContainer]}>
       <View height="40%" width="100%" style={layouts.loginTopContainer}>
         <Video
-          source={require('../assets/bg_video.mp4')}
+          source={require('../assets/videos/bg_video.mp4')}
           resizeMode="cover"
           isMuted={true}
           repeat={true}
