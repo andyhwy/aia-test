@@ -8,6 +8,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import React, {useEffect, useState} from 'react';
 import Home from './screens/Home';
 import Login from './screens/Login';
+import Profile from './screens/Profile';
 import Register from './screens/Register';
 import Splash from './screens/Splash';
 import Welcome from './screens/Welcome';
@@ -40,6 +41,11 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={Home}
+          options={{headerShown: false}}
+        />
+        <Stack.Screen
+          name="Profile"
+          component={Profile}
           options={{headerShown: false}}
         />
       </Stack.Navigator>
