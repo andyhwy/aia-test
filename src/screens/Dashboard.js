@@ -48,11 +48,6 @@ function RenderListCardItem(props) {
                 5.250 km
               </Text>
             </View>
-
-            <Image
-              style={layouts.dashboardCardItemContextImageStyle}
-              source={require('../assets/images/walking.png')}
-            />
           </View>
         </View>
       );
@@ -109,25 +104,46 @@ function RenderListCardItem(props) {
       );
       break;
     }
+    case '3': {
+      view = (
+        <View style={[layouts.listCardItem, {padding: 0}]}>
+          <Image
+            style={[layouts.dashboardCardItemImageStyle, {aspectRatio: 1.5}]}
+            resizeMode="cover"
+            source={{
+              uri:
+                'https://www.aia.com.hk/content/dam/hk-vitality/clientlibs/img/png/health_quiz_card_TC.jpg',
+            }}
+          />
+        </View>
+      );
+      break;
+    }
+    case '4': {
+      view = (
+        <View style={[layouts.listCardItem, {padding: 0}]}>
+          <Image
+            style={[layouts.dashboardCardItemImageStyle, {aspectRatio: 0.8}]}
+            resizeMode="cover"
+            source={{
+              uri:
+                'https://www.aia.com.hk/content/dam/hk-vitality/clientlibs/img/png/pass_thru_main_EN.jpg',
+            }}
+          />
+        </View>
+      );
+      break;
+    }
   }
   return view;
 }
 
 export default function Dashboard() {
   return (
-    <View style={[layouts.tabScreenContainer]}>
+    <View style={layouts.tabScreenContainer}>
       <SafeAreaView style={layouts.container}>
         <FlatList
-          /*  onViewableItemsChanged={({viewableItems, changed}) => {
-            if (
-              viewableItems.find((x) => {
-                x.index === 2;
-              })
-            ) {
-              if (!doAnimation) setDoAnimation(!doAnimation);
-            }
-          }} */
-          style={{padding: SpaceSizes.largeSpace}}
+          style={{paddingHorizontal: SpaceSizes.largeSpace}}
           data={items}
           ListFooterComponent={<View style={{height: 50}} />}
           ListHeaderComponent={

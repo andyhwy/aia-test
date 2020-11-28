@@ -23,6 +23,7 @@ export const SpaceSizes = {
 export const IconSizes = {
   tabIconSizeNormal: 18,
   tabIconSizeFocused: 22,
+  settingProfileUserIcon: 50,
 };
 
 export const OtherSizes = {

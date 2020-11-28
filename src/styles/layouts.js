@@ -23,8 +23,8 @@ export const layouts = StyleSheet.create({
     alignItems: 'center',
   },
   listCardItem: {
-    shadowColor: 'rgba(0,0,0, .1)',
-    shadowOffset: {height: 15, width: 1},
+    shadowColor: 'rgba(0,0,0, .15)',
+    shadowOffset: {height: 10, width: 1},
     shadowOpacity: 1,
     shadowRadius: 15,
     elevation: OtherSizes.elevation,
@@ -35,6 +35,12 @@ export const layouts = StyleSheet.create({
   listSeperatorSpace: {
     height: 20,
     width: 20,
+  },
+  listDividerStyle: {
+    width: '100%',
+    height: 0.3,
+    marginVertical: 10,
+    backgroundColor: Colors.coolGrey4,
   },
   listHeaderTitleTextStyle: {
     fontSize: TextSizes.largeText,
@@ -65,6 +71,12 @@ export const layouts = StyleSheet.create({
     marginLeft: 2,
   },
   dashboardCardItemContextImageStyle: {width: 60, height: 60, margin: 10},
+  dashboardCardItemImageStyle: {
+    width: '100%',
+    height: undefined,
+    aspectRatio: 0.8,
+    borderRadius: OtherSizes.largeCornerRadius,
+  },
   /**
    * {@link Home.js}
    */
@@ -73,7 +85,9 @@ export const layouts = StyleSheet.create({
     backgroundColor: Colors.white,
   },
   tabHeaderContainer: {
-    padding: SpaceSizes.normalSpace,
+    paddingHorizontal: SpaceSizes.normalSpace,
+    paddingTop: SpaceSizes.normalSpace,
+    paddingBottom: SpaceSizes.ultraLargeSpace,
   },
   tabHeaderTitleTextStyle: {
     fontSize: TextSizes.extremeLargeText,
@@ -132,5 +146,24 @@ export const layouts = StyleSheet.create({
   loginRegisterTextStyle: {
     color: Colors.aiaRed,
     fontWeight: 'bold',
+  },
+  /**
+   * {@link Settings.js}
+   */
+  settingsHeaderProfileContainer: {
+    flexDirection: 'row',
+    marginTop: 20,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  settingsHeaderProfileTitleTextStyle: {
+    fontSize: TextSizes.largeText,
+    fontWeight: '700',
+    color: Colors.coolGrey10,
+  },
+  settingsHeaderProfileSubtitleTextStyle: {
+    fontSize: TextSizes.normalText,
+    fontWeight: '500',
+    color: Colors.coolGrey9,
   },
 });
