@@ -41,6 +41,15 @@ export const layouts = StyleSheet.create({
     fontWeight: '700',
   },
   /**
+   * {@link Splash.js}
+   */
+  splashContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: Colors.aiaRed,
+  },
+  /**
    * {@link Dashboard.js}
    */
   dashboardCardItemContextContainer: {
