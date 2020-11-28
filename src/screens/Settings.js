@@ -4,7 +4,7 @@ import {layouts} from '../styles/layouts';
 
 export default function Settings() {
   return (
-    <View style={layouts.container}>
+    <View style={layouts.tabScreenContainer}>
       <Text>Settings</Text>
     </View>
   );

@@ -25,11 +25,11 @@ export default function Login(props) {
           style={layouts.loginBackgroundVideo}
         />
         <View style={layouts.loginBackgroundVideoOverlay} />
-        <View style={layouts.loginHeaderTitleLayout}>
+        <View style={layouts.loginHeaderTitleContainer}>
           <SafeAreaView>
             <LogoAiaVitality width="160" height="50" />
           </SafeAreaView>
-          <Text style={layouts.loginHeaderTitle}>Sign In</Text>
+          <Text style={layouts.loginHeaderTitleTextStyle}>Sign In</Text>
         </View>
       </View>
       <View style={layouts.loginBottomContainer}>

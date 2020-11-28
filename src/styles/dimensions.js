@@ -1,5 +1,5 @@
 export const TextSizes = {
-  extremeLargeText: 28,
+  extremeLargeText: 30,
   ultraLargeText: 26,
   extraLargeText: 22,
   largeText: 20,
@@ -18,6 +18,11 @@ export const SpaceSizes = {
   smallSpace: 8,
   extraSmallSpace: 4,
   ultraSmallSpace: 2,
+};
+
+export const IconSizes = {
+  tabIconSizeNormal: 18,
+  tabIconSizeFocused: 22,
 };
 
 export const OtherSizes = {

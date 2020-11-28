@@ -4,7 +4,7 @@ import {layouts} from '../styles/layouts';
 
 export default function Profile() {
   return (
-    <View style={layouts.container}>
+    <View style={[layouts.tabScreenContainer]}>
       <Text>Profile</Text>
     </View>
   );

@@ -3,7 +3,6 @@ module.exports = {
   extends: [
     '@react-native-community',
     'eslint:recommended',
-    'plugin:react/recommended', // uses react-specific linting rules
     'prettier/react', // disables react-specific linting rules that conflict with prettier
     'plugin:prettier/recommended', // uses react-specific linting rules
     'plugin:import/errors',
