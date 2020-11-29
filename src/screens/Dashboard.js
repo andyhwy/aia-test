@@ -68,7 +68,7 @@ function RenderListCardItem(props) {
                 Gold
               </Text>
               <Text style={layouts.dashboardCardItemContextSubTitleTextStyle}>
-                7500 points{'\n'}Only 2,000 points to reach Platinum
+                7,500 points{'\n'}Only 2,000 points to reach Platinum
               </Text>
             </View>
             <Image

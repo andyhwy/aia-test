@@ -166,4 +166,38 @@ export const layouts = StyleSheet.create({
     fontWeight: '500',
     color: Colors.coolGrey9,
   },
+  /**
+   * {@link Rewards.js}
+   */
+  rewardsHeaderMedalIcon: {width: 50, height: 50, marginVertical: 20},
+  rewardsHeaderTitleTxextStyle: {
+    fontSize: TextSizes.extraLargeText,
+    fontWeight: '700',
+    color: 'gold',
+  },
+  rewardsHeaderSubtitleTextStyle: {
+    fontSize: TextSizes.normalText,
+    fontWeight: '500',
+    color: Colors.coolGrey9,
+  },
+  rewardCardItemContainer: {flex: 1, justifyContent: 'space-evenly'},
+  rewardsCardItemTitleTextStyle: {
+    flexWrap: 'wrap',
+    fontSize: TextSizes.normalText,
+    fontWeight: '800',
+    color: Colors.coolGrey6,
+  },
+  rewardsCardItemSubtitleTextStyle: {
+    flexWrap: 'wrap',
+    fontSize: TextSizes.normalText,
+    marginRight: 10,
+    fontWeight: '600',
+  },
+  rewardsCardItemCaptionTextStyle: {
+    flexWrap: 'wrap',
+    fontSize: TextSizes.smallText,
+    fontWeight: '600',
+    color: Colors.coolGrey9,
+  },
+  rewardsCardItemLogo: {width: 100, height: undefined, aspectRatio: 1},
 });
