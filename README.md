@@ -10,7 +10,13 @@ Test project for AIA
 
 - [React Native App]:
 
-  - This simple application shows how user can register and can login The app is a simple CRUD that will have the following sections: Register Page Login Page Dashboard Page Profile Page 
+  - This simple application shows how user can register and can login The app is a simple CRUD that will have the following sections: 
+    - Register Page
+    - Login Page 
+    - Dashboard Page
+    - Rewards Page
+    - Settings Page
+    - Profile Page
 
 - [Simple web with ReactJs]:
   - A simple responsive web page (ReactJs) that share the business logic with RN app.
