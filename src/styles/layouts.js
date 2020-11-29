@@ -101,6 +101,7 @@ export const layouts = StyleSheet.create({
   },
   /**
    * {@link Login.js}
+   * {@link Register.js}
    */
   loginContainer: {
     flex: 1,
@@ -147,6 +148,7 @@ export const layouts = StyleSheet.create({
     color: Colors.aiaRed,
     fontWeight: 'bold',
   },
+  loginButton: {marginTop: 40, backgroundColor: Colors.aiaRed},
   /**
    * {@link Settings.js}
    */
